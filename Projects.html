@@ -95,7 +95,7 @@
 								<!--<div class="image"><img src="images/Selfie1.jpeg" height ="490"  alt="" /> 
 								</div>-->
 								<div class="content">
-									<h2><br />Data cleaning and manipulation<br /></h2>
+									<h2><br />Data cleaning and data manipulation<br /></h2>
 									
 								</div>
 							</section>
@@ -113,12 +113,13 @@
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h2>Data cleaning, construction company</h2>
+								<h2>Data cleaning, in a construction company</h2>
 								<hr />
 
 								<section>									
+									<!-- Section to the right commented in case I need it later
 									<p><span class="image right"><a href="https://github.com/NicolasCano01/PortfolioProjects/tree/main/DataCleaning_ConstructionCompany">
-										<img src="images/pic05.jpg" height ="380" width="480" alt="" /></a></span>
+										<img src="images/pic05.jpg" height ="280" width="480" alt="" /></a></span>
 									<h4>Problem</h4>
 									The company has an old ERP system, that exports the data in a difficult format to read and understand.
 									<br/> The objective is normalize the data and store in a table ready to be processed.
@@ -135,21 +136,77 @@
 										class="button small fit">View Project</a></li>
 									</ul>
 									<br /><br /><br /><br /><br /><br />
-									</p>
+									</p> -->
+									
+									<div class="row">
+									<div class="col-6 col-12-medium">
+										<div class="content">
+										<h4>Problem</h4>
+										The company has an old ERP system, that exports the data in a difficult format to read and understand.
+										<br/> The objective is to normalize the data and store in a table ready to be processed.
+										<br /><br />
+										<h4>Action taken</h4>
+										Find a pattern on the source files and through <strong>VBA</strong>, create a macro that could be replicated in all files.
+										<strong> Power Query </strong>needs to be involved in the process to  override column dynamization.
+										<br /><br />
+										<h4>Outcome</h4>
+										A clean and simple table, easy to read and usable for reporting purposes.
+										<br /><br />
+										<ul class="actions stacked">
+											<li><a href="https://github.com/NicolasCano01/PortfolioProjects/tree/main/DataCleaning_ConstructionCompany"
+											target ="_blank" class="button small fit">View Project</a></li>
+										</ul>
+										</div>
+									</div>
+									<div class="col-6 col-12-medium">
+										<div class="image"> <a href="https://github.com/NicolasCano01/PortfolioProjects/tree/main/DataCleaning_ConstructionCompany">
+										<img src="images/pic03.jpg" eight ="500" width ="500" target ="_blank" alt="" /></a></div>
+									</div>
+								</div>
+									<br /><br /><br /><br />
 								</section>
 								
-								
+								 
 
 								<div class="row">
 									<div class="col-6 col-12-medium">
 									</div>
 									<div class="col-6 col-12-medium">
-										<h2>Project title 2</h2>
+										<h2>SQL data exploration, covid data</h2>
 									</div>
 								</div>
 								<hr />
+								
+								
+								<div class="row">
+									<div class="col-6 col-12-medium">
+										<div class="image"> <a href="https://github.com/NicolasCano01/PortfolioProjects/blob/main/CovidSQLDataExploration/CovidProject.sql">
+										<img src="images/pic03.jpg" height ="" width ="100%" target ="_blank" alt="" /></a></div>
+									</div>
+									<div class="col-6 col-12-medium">
+										<div class="content">
+											<h4>Problem</h4>
+											<br/> The objective is to explore the data available to the public and get some insights from it.
+											<br /><br />
+											<h4>Action taken</h4>
+											Upload the raw data in <strong>SQL server</strong>, and through <strong>SQL</strong> queries find insights and useful information to 
+											have a better understanding of the Covid situation and progress.
+											<br /><br />
+											<h4>Outcome</h4>
+											Queries, temporary tables and views, with the information to be exported or queried by reporting softwares.
+											<br /><br />
+											<ul class="actions stacked">
+												<li><a href="https://github.com/NicolasCano01/PortfolioProjects/blob/main/CovidSQLDataExploration/CovidProject.sql"
+												target ="_blank" class="button small fit">View Project</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								
 
-								<section>									
+								<!-- How the section was set up initially
+								  <section>									
 									<p><span class="image left"><img src="images/pic04.jpg" height ="380" alt="" /></span>
 									<h4>Problem</h4>
 									Description
@@ -163,7 +220,7 @@
 									 
 									<br /><br /><br /><br />
 									</p>
-								</section>
+								</section> -->
 								<hr />
 
 							</div>
@@ -184,23 +241,37 @@
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h2>Project title 1</h2>
+								<h2>Basket Analysis</h2>
 								<hr />
 
 								<section>									
-									<p><span class="image right"><img src="images/pic05.jpg" height ="380" alt="" /></span>
-									<h4>Problem</h4>
-									Description
-									<br /><br />
-									<h4>Action taken</h4>
-									Description
-									<br /><br />
-									<h4>Outcome</h4>
-									Description
-									<br /><br />
-									 
-									<br /><br /><br /><br /><br /><br />
-									</p>
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<div class="content">
+											<h4>Problem</h4>
+											The company is planning to buy one of their suppliers.
+											<br/> The objective is to show each supplier's income and which supplier's items paired better with the company's products.
+											<br /><br />
+											<h4>Action taken</h4>
+											Using <strong> Power Pivot</strong>  and <strong> Power BI</strong> , create a <strong> data model </strong> and show visually the total of sales made by each supplier and what percentage represent of the company's income. 
+											<br />On the second sheet, using the most popular company's items, find the products (and supplier) better paired with them.
+											<br /><br />
+											<h4>Outcome</h4>
+											Two different results, the supplier with the highest income is different from the supplier with items that paired better with the company's products.
+											<br /><br />
+											<ul class="actions stacked"> 
+												<li><a href="https://app.powerbi.com/view?r=eyJrIjoiNjhkNWYxZDctZGNjZC00ZWNlLWE4MmMtY2FlYzAwYzFkMWEzIiwidCI6IjBjMjI2NWNkLTU0OTUtNGM1ZS1hNmMwLTNlMGIxYzJjOGY1YyJ9"
+												target ="_blank" class="button small fit">View Project</a></li>
+											</ul>
+											</div>
+										</div>
+										<div class="col-6 col-12-medium"> <br /><br /><br />
+											<div> <iframe title="OrderAnalysis - Intro" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNjhkNWYxZDctZGNjZC00ZWNlLWE4MmMtY2FlYzAwYzFkMWEzIiwidCI6IjBjMjI2NWNkLTU0OTUtNGM1ZS1hNmMwLTNlMGIxYzJjOGY1YyJ9" frameborder="0" allowFullScreen="true"></iframe>
+											</div>
+										</div>
+											
+									</div>
+									<br /><br /><br /><br />
 								</section>
 								
 								
@@ -209,26 +280,74 @@
 									<div class="col-6 col-12-medium">
 									</div>
 									<div class="col-6 col-12-medium">
-										<h2>Project title 2</h2>
+										<h2>Covid Analysis</h2>
 									</div>
 								</div>
 								<hr />
+								
+								<section>									
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<div class="image"> <br /><br /><br /><br /><a href="https://app.powerbi.com/view?r=eyJrIjoiMjU2OTkyZWUtY2Q1Yy00NGM4LTg1MGUtYzk2NDk3NzMwMzQxIiwidCI6IjBjMjI2NWNkLTU0OTUtNGM1ZS1hNmMwLTNlMGIxYzJjOGY1YyJ9">
+										<img src="images/CovidDashboardAnalysisPic.png" height ="" width ="100%" target ="_blank" alt="" /></a> </div>
+										</div>
+										<div class="col-6 col-12-medium">
+											<div class="content">
+											<h4>Problem</h4>
+											The objective is to get an overall idea of the Covid situation around the world
+											<br /><br />
+											<h4>Action taken</h4>
+											Download the updated data from a credible <a href="https://ourworldindata.org/covid-deaths" target ="_blank"> source</a>, and using 
+												<strong>SQL server </strong> create diferent tables with the insights needed in the Dashboard.
+											<br /><br />
+											<h4>Outcome</h4>
+											A Dashboard that show the overall situation world-wide, where despite the is an increase on the infections, the numbers of deaths caused
+												by the virus, remains low.
+											<br /><br />
+											<ul class="actions stacked">
+												<li><a href="https://app.powerbi.com/view?r=eyJrIjoiMjU2OTkyZWUtY2Q1Yy00NGM4LTg1MGUtYzk2NDk3NzMwMzQxIiwidCI6IjBjMjI2NWNkLTU0OTUtNGM1ZS1hNmMwLTNlMGIxYzJjOGY1YyJ9"
+												target ="_blank" class="button small fit">View Project</a></li>
+											</ul>
+											</div>
+										</div>
+											
+									</div>
+									<br /><br /><br /><br />
+								</section>
+								
+								<h2>Quantity of Sales Analysis</h2>
+								<hr />
 
 								<section>									
-									<p><span class="image left"><img src="images/pic04.jpg" height ="380" alt="" /></span>
-									<h4>Problem</h4>
-									Description
-									<br /><br />
-									<h4>Action taken</h4>
-									Description
-									<br /><br />
-									<h4>Outcome</h4>
-									Description
-									<br /><br />
-									 
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<div class="content">
+											<h4>Problem</h4>
+											The company lacks a way of visualising the current sales performance against the previous year and 
+											previous month.<br /><br />
+											<h4>Action taken</h4>
+											Using <strong>Power Pivot</strong> and Excel Pivot Tables, get the summary information of the quantities
+											 and also presenting the user the option to see a breakdown by staff member and type of sale. <br /><br />
+											<h4>Outcome</h4>
+											A Dashboard was created with a simple graphic, along with a few tables with more details and a different 
+											range of slicers to help the user filter the Dashboard information accordingly.<br /><br />
+											<ul class="actions stacked">
+												<li><a href="https://github.com/NicolasCano01/PortfolioProjects/blob/main/Quantity%20of%20Sales%20Analysis/ExcelSalesDashboard.png"
+												target ="_blank" class="button small fit">View Project</a></li>
+											</ul>
+											</div>
+										</div>
+										<div class="col-6 col-12-medium"> <br /><br /><br /><br /><br />
+											<div class="image"> <a href="https://github.com/NicolasCano01/PortfolioProjects/blob/main/Quantity%20of%20Sales%20Analysis/ExcelSalesDashboard.png">
+											<img src="images/ExcelSalesDashboard.png" height ="" width ="100%" target ="_blank" alt="" /></a> </div>
+										</div>
+										</div>
+											
+									</div>
 									<br /><br /><br /><br />
-									</p>
 								</section>
+								
+
 								<hr />
 
 							</div>
